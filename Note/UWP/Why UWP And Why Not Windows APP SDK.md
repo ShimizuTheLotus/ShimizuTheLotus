@@ -27,3 +27,4 @@ To help you consider what time you should not use UWP, I made this table:
 |---|:---:|:---:|
 | Mica | O | O |
 | Mica Alt | X | O |
+| C# Version | Up to 7.0 | Higher |
