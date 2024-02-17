@@ -26,10 +26,10 @@ To help you consider what time you should not use UWP, I made this table:
 | Feature | UWP | Windows APP SDK |
 |---|:---:|:---:|
 | Mica | O | O |
-| Mica Alt [LimitsComparisonOfUWPAndWindowsAPPSDKRefer1] | X [t] | O |
+| Mica Alt [^LimitsComparisonOfUWPAndWindowsAPPSDKRefer1] | X [^t] | O |
 | C# Version | Up to 7.0 | Higher |
-| Apps On Windows Phone [Limits Comparison of UWP and Windows APP SDK Refer 2] | O | X |
+| Apps On Windows Phone [^Limits Comparison of UWP and Windows APP SDK Refer 2] | O | X |
 
-[LimitsComparisonOfUWPAndWindowsAPPSDKRefer1]: Mica Alt is different with Mica, the color of destop background will be more obvious than Mica.
-[Limits Comparison of UWP and Windows APP SDK Refer 2]: Windows Phone is a kind of Wnidows devices. "Windows Phone" Here refers to Windows Phone with Windows 10 Mobile.
-[t]: test
+[^LimitsComparisonOfUWPAndWindowsAPPSDKRefer1]: Mica Alt is different with Mica, the color of destop background will be more obvious than Mica.
+[^Limits Comparison of UWP and Windows APP SDK Refer 2]: Windows Phone is a kind of Wnidows devices. "Windows Phone" Here refers to Windows Phone with Windows 10 Mobile.
+[^t]: test
