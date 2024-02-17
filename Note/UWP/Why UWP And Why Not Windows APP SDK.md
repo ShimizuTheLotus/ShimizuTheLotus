@@ -18,3 +18,11 @@ Until now(Feb. 17, 2024, 3:15, GMT+0), UWP still has better performance than Win
 >Today in version 1.4 of the Windows App SDK, launch speeds, RAM usage, and installation size of WinUI 3 apps are larger/slower than seen in UWP. We're actively working to improve this.
 
 Source: https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported#performance-considerations
+
+## Limits of UWP
+**Some features are not available in UWP. Like what I said: "*consider using UWP in a higher priority.*", not "Only UWP"**
+To help you consider what time you should not use UWP, I made this table:
+| Feature | UWP | Windows APP SDK |
+|---|:---:|:---:|
+| Mica | O | O |
+| Mica Alt | X | O |
