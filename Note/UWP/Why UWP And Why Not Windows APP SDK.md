@@ -7,4 +7,7 @@ UWP Apps have limited authorities. Behaviors such as reaching all files can be l
 ## Natural limited accessory to sensitive informations could get more trust from users.
 **Windows APP SDK can easily do things some company like: scan all your files in your disks, and the App is just for Instant Messaging.** Using UWP, natural limited authorities could let users trust you more.
 
-## More friendly to your disks.
+## More friendly to your disk space, this is UWP.
+Project files of Windows APP SDK are strangely **HUGE**. I have a Windows APP SDK project and its files is **5GiB**. Why *strangely*? I copied its codes to a new Windows APP SDK project, and it just have 400MiB, much lighter than the previous one. Same things, diverse space. And most importantly, they're **HUGE**.
+
+*What about UWP?* Until now, my whole local repository of Tagme_, sizes 23.3MiB. And for It's project files, 18.8MiB only!! Plus, I added much codes in Tagme_.
