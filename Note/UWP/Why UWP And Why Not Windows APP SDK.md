@@ -21,6 +21,7 @@ Source: https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-t
 
 ## Limits of UWP
 **Some features are not available in UWP. Like what I said: "*consider using UWP in a higher priority.*", not "Only UWP"**
+
 To help you consider what time you should not use UWP, I made this table:
 | Feature | UWP | Windows APP SDK |
 |---|:---:|:---:|
