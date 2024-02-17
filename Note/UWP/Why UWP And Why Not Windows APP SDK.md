@@ -26,10 +26,10 @@ To help you consider what time you should not use UWP, I made this table:
 | Feature | UWP | Windows APP SDK |
 |---|:---:|:---:|
 | Mica | O | O |
-| Mica Alt [^LimitsComparisonOfUWPAndWindowsAPPSDKRefer1] | X [^t] | O |
+| Mica Alt [^LimitsComparisonOfUWPAndWindowsAPPSDKRefer1] | X | O |
 | C# Version | Up to 7.0 | Higher |
-| Apps On Windows Phone [^Limits Comparison of UWP and Windows APP SDK Refer 2] | O | X |
+| Apps On Windows Phone [^LimitsComparisonOfUWPAndWindowsAPPSDKRefer2] | O[^LimitsComparisonOfUWPAndWindowsAPPSDKRefer3] | X |
 
 [^LimitsComparisonOfUWPAndWindowsAPPSDKRefer1]: Mica Alt is different with Mica, the color of destop background will be more obvious than Mica.
-[^Limits Comparison of UWP and Windows APP SDK Refer 2]: Windows Phone is a kind of Wnidows devices. "Windows Phone" Here refers to Windows Phone with Windows 10 Mobile.
-[^t]: test
+[^LimitsComparisonOfUWPAndWindowsAPPSDKRefer2]: Windows Phone is a kind of Wnidows devices. "Windows Phone" Here refers to Windows Phone with Windows 10 Mobile. **All "Windows Phone" in this documents refer to Windows Phone with Windows 10 Mobile.**
+[^LimitsComparisonOfUWPAndWindowsAPPSDKRefer3]: Windows Phone can only install UWP apps. Plus, The maximum Windows version of Windows Phone is Windows 10 1607. So your UWP target version shouldn't higher than that. This means you'll have a huge limit of using visual effects. Almost no one use Windows Phone. But if you're a lover, **do it!**
