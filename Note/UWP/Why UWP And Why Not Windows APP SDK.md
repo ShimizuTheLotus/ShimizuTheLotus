@@ -13,6 +13,8 @@ Project files of Windows APP SDK are strangely **HUGE**. I have a Windows APP SD
 *What about UWP?* Until now, my whole local repository of Tagme_, sizes 23.3MiB. And for It's project files, 18.8MiB only!! Plus, I added much codes in Tagme_.
 
 ## UWP is lighter, faster
+Until now(Feb. 17, 2024, 11:15), UWP still has better performance than Windows APP SDK.
 >## Performance considerations
 >Today in version 1.4 of the Windows App SDK, launch speeds, RAM usage, and installation size of WinUI 3 apps are larger/slower than seen in UWP. We're actively working to improve this.
+
 Source: https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported#performance-considerations
