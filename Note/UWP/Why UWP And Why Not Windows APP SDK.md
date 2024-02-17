@@ -19,12 +19,16 @@ Until now(Feb. 17, 2024, 3:15, GMT+0), UWP still has better performance than Win
 
 Source: https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported#performance-considerations
 
-## Limits of UWP
+## Limits Comparison of UWP and Windows APP SDK
 **Some features are not available in UWP. Like what I said: "*consider using UWP in a higher priority.*", not "Only UWP"**
 
 To help you consider what time you should not use UWP, I made this table:
 | Feature | UWP | Windows APP SDK |
 |---|:---:|:---:|
 | Mica | O | O |
-| Mica Alt | X | O |
+| Mica Alt[Limits Comparison of UWP and Windows APP SDK Refer 1] | X | O |
 | C# Version | Up to 7.0 | Higher |
+| Apps On Windows Phone[Limits Comparison of UWP and Windows APP SDK Refer 2] | O | X |
+
+[Limits Comparison of UWP and Windows APP SDK Refer 1]: Mica Alt is different with Mica, the color of destop background will be more obvious than Mica.
+[Limits Comparison of UWP and Windows APP SDK Refer 2]: Windows Phone is a kind of Wnidows devices. "Windows Phone" Here refers to Windows Phone with Windows 10 Mobile.
