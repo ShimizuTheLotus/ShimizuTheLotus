@@ -1,5 +1,6 @@
 ### Hi there 👋
-
+🔭 I’m currently working on my program: Tagme_!
+Want to know more about Tagme_? Go to https://github.com/ShimizuTheLotus/Tagme_ for further information!
 <!--
 **ShimizuTheLotus/ShimizuTheLotus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
