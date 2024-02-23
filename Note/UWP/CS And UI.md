@@ -6,4 +6,8 @@ We can edit UI Elements in a C# file. But it's not as same as using the XAML.
 
 ```CSharp
 UIElement uiElement = (UIElement)FindName("ElementName");
+//UIElement could be replaced by the type of the UI element, such as TextBlock
+//uiElement could be replaced with any name you want(in C# variable naming rules),
+//but it's not the Name property of your UI element. FindName finds element having UIElement.Name the same value with the string.
+//ElementName is the UIElement.Name property.
 ```
