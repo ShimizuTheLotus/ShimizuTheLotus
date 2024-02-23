@@ -4,7 +4,7 @@ We can edit UI Elements in a C# file. But it's not as same as using the XAML.
 
 ***If you defined a UI element in C#, please use this code to reach it:***
 
-```CSharp
+```csharp
 UIElement uiElement = (UIElement)FindName("ElementName");
 //UIElement could be replaced by the type of the UI element, such as TextBlock
 //uiElement could be replaced with any name you want(in C# variable naming rules),
