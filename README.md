@@ -6,7 +6,7 @@ Want to know more about Tagme_?
 
 Go to https://github.com/ShimizuTheLotus/Tagme_ for further information!
 ### Love UWP Programming?
-**Oh That's perfect! Would you like to view my notes? They're at:** https://github.com/ShimizuTheLotus/ShimizuTheLotus/tree/main/Note/UWP
+**Oh that's perfect! Would you like to view my notes? They're at:** https://github.com/ShimizuTheLotus/ShimizuTheLotus/tree/main/Note/UWP
 <!--
 **ShimizuTheLotus/ShimizuTheLotus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
