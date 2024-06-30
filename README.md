@@ -4,6 +4,9 @@
 
 Want to know more about Tagme_?
 
+My fav langs:
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false)
+
 Go to https://github.com/ShimizuTheLotus/Tagme_ for further information!
 ### Love UWP Programming?
 **Oh that's perfect! Would you like to view my notes? They're at:** https://github.com/ShimizuTheLotus/ShimizuTheLotus/tree/main/Note/UWP
