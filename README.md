@@ -2,11 +2,14 @@
 ### What am I working on?
 🔭 I’m currently working on my program: Tagme_!
 
-Want to know more about Tagme_?
-
 ### My most used langs:
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false)
+
+### WakaTime stats
+[![SHimizuTheLotus's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShimizuTheLotus)](https://github.com/anuraghazra/github-readme-stats)
+
+Want to know more about Tagme_?
 
 Go to https://github.com/ShimizuTheLotus/Tagme_ for further information!
 ### Love UWP Programming?
