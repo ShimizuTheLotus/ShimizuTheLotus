@@ -4,7 +4,8 @@
 
 Want to know more about Tagme_?
 
-My fav langs:
+### My most used langs:
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false)
 
 Go to https://github.com/ShimizuTheLotus/Tagme_ for further information!
