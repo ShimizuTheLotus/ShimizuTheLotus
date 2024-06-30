@@ -4,7 +4,7 @@
 
 ### My most used langs:
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false&show=prs_merged_percentage)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false)
 
 
 
