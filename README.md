@@ -3,7 +3,7 @@
 🔭 I’m currently working on my program: Tagme_!
 
 ### My [Github stats](https://github.com/anuraghazra/github-readme-stats)
-![ShimizuTheLotus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShimizuTheLotus&show_icons=true)
+![ShimizuTheLotus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShimizuTheLotus&show_icons=true&show=prs_merged_percentage)
 
 ### My most used langs:
 
