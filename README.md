@@ -2,6 +2,9 @@
 ### What am I working on?
 🔭 I’m currently working on my program: Tagme_!
 
+### My [Github stats](https://github.com/anuraghazra/github-readme-stats)
+![ShimizuTheLotus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShimizuTheLotus&show_icons=true)
+
 ### My most used langs:
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false)
