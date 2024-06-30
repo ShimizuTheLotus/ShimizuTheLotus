@@ -4,10 +4,9 @@
 
 ### My most used langs:
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ShimizuTheLotus&hide_progress=false&show=prs_merged_percentage)
 
-### WakaTime stats
-[![SHimizuTheLotus's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ShimizuTheLotus)](https://github.com/anuraghazra/github-readme-stats)
+
 
 Want to know more about Tagme_?
 
