@@ -156,8 +156,50 @@ If the output is showing error, F5 to run the program(it's for build the program
 Now the Header part is finished, you can try to use it with code:
 
 ```xaml
+<!--SomePage.xaml, yes, the page you wanto to use this control-->
 <local:MyControl Header="This is the header"/>
 ```
 *P.S., if you want you app fit globalization, there'll be some [problem](https://github.com/ShimizuTheLotus/ShimizuTheLotus/blob/main/Note/UWP/Templated%20Controls.md#why-my-content-was-replaced-when-i-tried-to-localization).*
+
+## How to add event to the control?
+
+If you want to add a event and you can use it like ```<MyControl Click="MyCOntrol_Click"/>```, check this:
+
+Now we want to make MyControl.Click launch after the button was clicked.
+
+Before everything, we should name the button:
+
+```xaml
+<--Generic.xaml-->
+<!--Button-->
+<Button x:Name="ResponceButton"/>
+```
+
+Then we'll edit the .cs file, add an EventHandler and override ```OnApplyTemplate()```:
+
+```cs
+//MyControl.cs
+public sealed class MyControl : Control
+{
+    public MyControl()
+    {
+        this.DefaultStyleKey = typeof(MyControl);
+    }
+
+    public event EventHandler<RoutedEventArgs> responseButtonClicked;
+
+    protected override void OnApplyTemplate()
+    {
+        base.OnApplyTemplate();
+        Button button = GetTemplateChild("ResponceButton") as Button;
+        if(button != null )
+        {
+            button.Click += (s, e) => responseButtonClicked?.Invoke(s, e);
+        }
+    }
+}
+```
+Now it's finished, have a try!
+
 
 ## Why my content was replaced when I tried to localization?
