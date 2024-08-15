@@ -201,5 +201,36 @@ public sealed class MyControl : Control
 ```
 Now it's finished, have a try!
 
-
 ## Why my content was replaced when I tried to localization?
+
+Now the main part of MyControl looks like this:
+
+```xaml
+<!--Generic.xaml-->
+<StackPanel>
+    <!--Header-->
+    <TextBlock FontSize="21" Text="{TemplateBinding Header}"/>
+    <!--Content-->
+    <TextBlock Text="{TemplateBinding Content}"/>
+    <!--Button-->
+    <Button x:Name="ResponceButton"/>
+</StackPanel>
+```
+
+If we've set a Uid for MyControl and there's content for it like ``` <local:MyControl Uid="Id_1"/>, we'll find that the header block and content block show same text.
+
+It is interesting. Our source code haven't mentioned anything about Uid. And I have a imagine. The text content of Uid will automatically be set to TextBlocks at the outer side, if we change our code a bit, it will be solved:
+
+```xaml
+<--Generic.xaml-->
+<StackPanel>
+    <!--Header-->
+    <TextBlock FontSize="21" Text="{TemplateBinding Header}"/>
+    <StackPanel>
+        <!--Content-->
+        <TextBlock Text="{TemplateBinding Content}"/>
+        <!--Button-->
+        <Button x:Name="ResponceButton"/>
+    </StackPanel>
+</StackPanel>
+```
