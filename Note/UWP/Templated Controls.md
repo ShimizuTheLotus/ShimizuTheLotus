@@ -158,6 +158,6 @@ Now the Header part is finished, you can try to use it with code:
 ```xaml
 <local:MyControl Header="This is the header"/>
 ```
-*P.S., if you want you app fit globalization, there'll be some [problem]().*
+*P.S., if you want you app fit globalization, there'll be some [problem](https://github.com/ShimizuTheLotus/ShimizuTheLotus/blob/main/Note/UWP/Templated%20Controls.md##why-my-content-was-replaced-when-i-tried-to-localization).*
 
-# Why my content was replaced when I tried to localization?
+## Why my content was replaced when I tried to localization?
