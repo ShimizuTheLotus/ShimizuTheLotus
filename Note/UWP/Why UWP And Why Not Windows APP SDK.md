@@ -10,6 +10,8 @@ UWP Apps have limited authorities. Behaviors such as reaching all files can be l
 ## More friendly to your disk space, this is UWP.
 Project files of Windows APP SDK are strangely **HUGE**. I have a Windows APP SDK project and its file size is **5GiB**. Why *strangely*? I copied its codes to a new Windows APP SDK project, and it just have 400MiB, much lighter than the previous one. Same things, diverse space. And most importantly, they're **HUGE**.
 
+*In addition, if you use C++/CX to write a UWP app, it will also be huge.*
+
 *What about UWP?* Until now, my whole local repository of Tagme_, sizes 23.3MiB. And for It's project files, 18.8MiB only!! Plus, I added much codes in Tagme_.
 
 ## UWP is lighter, faster
