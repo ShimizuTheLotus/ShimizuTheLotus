@@ -123,6 +123,7 @@ namespace TemplatedControlTest
 I'll add a Header property first.
 
 ```cs
+//MyControl.cs
 public sealed class MyControl : Control
 {
     public MyControl()
@@ -145,8 +146,18 @@ public sealed class MyControl : Control
 ```
 
 ```xaml
+<!--Generic.xaml-->
 <!--Header-->
 <TextBlock  FontSize="21" Text="{TemplateBinding Header}"/>
 ```
 
 If the output is showing error, F5 to run the program(it's for build the program).
+
+Now the Header part is finished, you can try to use it with code:
+
+```xaml
+<local:MyControl Header="This is the header"/>
+```
+*P.S., if you want you app fit globalization, there'll be some [problem]().*
+
+# Why my content was replaced when I tried to localization?
