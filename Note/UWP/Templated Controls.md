@@ -86,6 +86,7 @@ namespace TemplatedControlTest
 ```
 
 Now I'll add some comments.
+
 ```cs
 //MyControl.cs
 using System;
@@ -119,3 +120,33 @@ namespace TemplatedControlTest
 }
 ```
 
+I'll add a Header property first.
+
+```cs
+public sealed class MyControl : Control
+{
+    public MyControl()
+    {
+        this.DefaultStyleKey = typeof(MyControl);
+    }
+
+    public static readonly DependencyProperty HeaderProperty = DependencyProperty.Register(
+        nameof(Header),//The name of property
+        typeof(string),//The type of property
+        typeof(MyControl),//The type of your control
+        new PropertyMetadata(null));// keep the first parameter null, east this time
+    
+    public string Header
+    {  
+        get => (string)GetValue(HeaderProperty);
+        set => SetValue(HeaderProperty, value);
+    }
+}
+```
+
+```xaml
+<!--Header-->
+<TextBlock  FontSize="21" Text="{TemplateBinding Header}"/>
+```
+
+If the output is showing error, F5 to run the program(it's for build the program).
