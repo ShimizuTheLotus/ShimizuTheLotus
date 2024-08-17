@@ -135,7 +135,7 @@ public sealed class MyControl : Control
         nameof(Header),//The name of property
         typeof(string),//The type of property
         typeof(MyControl),//The type of your control
-        new PropertyMetadata(null));// keep the first parameter null, east this time
+        new PropertyMetadata(null));// the first parameter is the default value of this property
     
     public string Header
     {  
