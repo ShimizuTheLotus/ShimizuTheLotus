@@ -54,7 +54,7 @@ Let's Create a control with a TextBlock and a Button, and add another TextBlock 
 
 Now the view is finished. And the control is not functional yet.
 
-## How to add proporties to the control?
+## How to add properties to the control?
 
 You can refer [this](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/xaml-templated-controls-csharp-winui-3), it also works in UWP, or you want to check it in this file:
 
@@ -107,7 +107,7 @@ namespace TemplatedControlTest
 {
     public sealed class MyControl : Control
     {
-        //Proporties here
+        //Properties here
         //Your codes should be in this part
 
         public MyControl()
