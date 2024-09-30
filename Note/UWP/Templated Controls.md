@@ -234,3 +234,48 @@ It is interesting. Our source code haven't mentioned anything about Uid. And I h
     </StackPanel>
 </StackPanel>
 ```
+
+## Why the property dosen't work?
+
+This is a sample the property can't be set:
+```cs
+public static new readonly DependencyProperty FontSizeProperty = DependencyProperty.Register(
+    nameof(FontSize),//The name of property
+    typeof(double),//The type of property
+    typeof(Button),//The type of your control
+    new PropertyMetadata(12.0));// the first parameter is the default value of this property
+
+public new double FontSize
+{
+    get => (double)GetValue(FontSizeProperty);
+    set => SetValue(FontSizeProperty, value);
+}
+```
+``` xaml
+FontSize="{TemplateBinding FontSize}"
+```
+Macically, if you rename the Fontsize like this:
+```cs
+public static new readonly DependencyProperty FontSizeProperty = DependencyProperty.Register(
+    nameof(FontSize1),//The name of property
+    typeof(double),//The type of property
+    typeof(Button),//The type of your control
+    new PropertyMetadata(12.0));// the first parameter is the default value of this property
+
+public new double FontSize1
+{
+    get => (double)GetValue(FontSizeProperty);
+    set => SetValue(FontSizeProperty, value);
+}
+```
+``` xaml
+FontSize="{TemplateBinding FontSize1}"
+```
+It will work.
+
+**For the properties already exist that the complier suggest you to use "new" to hide the hide the origin keyword, you can code in this form in XAML**
+```xaml
+FontSize="{Binding FontSize,RelativeSource={RelativeSource TemplatedParent}}"
+```
+
+Then it'll work.
