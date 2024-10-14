@@ -254,7 +254,7 @@ public new double FontSize
 ``` xaml
 FontSize="{TemplateBinding FontSize}"
 ```
-Macically, if you rename the Fontsize like this:
+Magically, if you rename the Fontsize like this:
 ```cs
 public static new readonly DependencyProperty FontSizeProperty = DependencyProperty.Register(
     nameof(FontSize1),//The name of property
