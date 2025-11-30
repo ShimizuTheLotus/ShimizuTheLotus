@@ -1,6 +1,6 @@
 ### Hi there 👋
 ### What am I working on?
-🔭 I’m currently working on my program: Tagme_!
+🔭 I’m currently working on my program: TagFind!
 
 ### My [Github stats](https://github.com/anuraghazra/github-readme-stats)
 ![ShimizuTheLotus's GitHub stats](https://github-readme-stats.vercel.app/api?username=ShimizuTheLotus&show_icons=true)
@@ -11,11 +11,10 @@
 
 
 
-Want to know more about Tagme_?
+Want to know more about TagFind?
 
-Go to [https://github.com/ShimizuTheLotus/Tagme_](https://github.com/ShimizuTheLotus/Tagme_) for further information!
-### Love UWP Programming?
-**Oh that's perfect! Would you like to view my notes? They're at:** https://github.com/ShimizuTheLotus/ShimizuTheLotus/tree/main/Note/UWP
+TagFind is a re-make after my draft Tagme_. The repo is temporarily private. Wait till I finish it up.
+
 
 ### Announcement
 I only update source code on GitHub, if you see my code on other sites, that's not what uploaded myself and I have no accounts on those websites. If you want to know whether the account is mine, feel free to ask me after you haven't found any info useful here.
